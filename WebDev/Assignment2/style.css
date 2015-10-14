@@ -1,0 +1,150 @@
+body {
+    font-family: Hind, sans-serif;
+    background-image: url(http://www.cianellistudios.com/blog/wp-content/uploads/2010/12/abstract-art-painting-canvas-art-mother-earth.jpg);
+    background-size: contain;
+    color: white;
+}
+
+.description {
+    color: white;
+    font-size: large;
+}
+.container {
+    margin-left:10%;
+    margin-right:10%;
+    #background-color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-width: 5px;
+    border-radius: 20px;
+    #box-shadow: 10px 10px 5px darkgreen;
+    box-shadow: 0px 0px 48px 6px rgba(76, 94, 71, 0.5);
+}
+
+.banner { 
+    padding:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    #border: 2px solid;
+    #background-color: yellow; 
+    #background-color: rgba(103, 255, 0, 0.3);
+}
+
+.content{
+    padding: 10px;
+}
+h1{
+    float:right;
+    width:30%;   
+}
+#profilePic {
+    width: 35%;  
+    margin-left: 2%;
+    margin-right: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 48px 6px rgba(76, 94, 71, 1.0);
+}
+
+
+
+.slidein {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-direction: alternate;
+}
+    
+@keyframes slidein {
+  from {
+    margin-left:50%;
+    font-size: 200% 
+  }
+
+  to {
+    margin-left: 50%;
+    font-size: 100%;
+  }
+}
+
+.dishes{
+    text-align: center;
+}
+
+#dishes_table {
+    width: 100%;   
+    text-align: center;
+    padding: 2%;
+    #background-color: rgba(0, 100, 0, 0.5);
+}
+
+#dishes_table td {
+    padding-bottom: 2%;
+}
+#dishes_table th {
+    text-decoration: underline;
+    padding-bottom: 2%;
+    font-size: large;
+    color: cornsilk;
+}
+
+#dishes_table img {
+    width: 150px;   
+}
+
+a:link {
+    color: chartreuse;   
+}
+
+a:visited {
+    color: darkorange;
+}
+
+a:hover {
+    color: aqua; 
+    
+}
+
+.title {
+    text-align: center;
+}
+
+.bar {
+    width:50%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_info {
+    text-align: center;
+    width:30%;
+    background-color:rgba(0, 0, 0, 0.5);
+    width:50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float:left;
+}
+
+.positions {
+    text-align: center;
+    float: right;
+    width:50%;
+    height:161.438px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.bottom:after {
+    height: 0; 
+    clear: both;
+    display: block;
+    content: " ";
+}
+
+.bottom li {
+    list-style-type: none;
+}
+
+.bottom ul, ol {
+    padding-left: 0px;
+}
